@@ -1,0 +1,55 @@
+.login-form {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    left: 500px;
+    top: 300px;
+    border: 7px solid black;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.login-form:hover {
+    box-shadow: 1px 1px 1px black;
+}
+
+.login-form h1 {
+    padding: 10px;
+    text-align: center;
+    font-family: monospace;
+    font-size: x-large;
+    border-radius: inherit;
+    background-color: yellow;
+}
+
+.login-form input {
+    border: 2px solid black;
+    margin: 30px;
+    height: 10px;
+    padding: 15px;
+    font-size: 16px;
+    display: block;
+}
+
+.login-form input:hover {
+    background-color: lightgray;
+    box-shadow: 0 0 0 1px green;
+}
+
+
+.login-form button {
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    width: 125px;
+    margin: 30px;
+    padding: 1rem;
+    transition: 0.4s;
+}
+
+.login-form button:hover {
+    background-color: black;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}

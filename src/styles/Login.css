@@ -1,18 +1,21 @@
 .login-form {
-    position: relative;
-    height: 400px;
-    width: 300px;
-    left: 500px;
-    top: 300px;
     border: 7px solid black;
     transition: 0.5s;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .login-form:hover {
     box-shadow: 1px 1px 1px black;
 }
-
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .login-form h1 {
     padding: 10px;
     text-align: center;
